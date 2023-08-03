@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Volkers Engineering - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+    /* CSS styles for the menu bar */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background: linear-gradient(45deg,black,grey,silver);
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: ruby-base;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* CSS styles for sections */
+    .section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .home {
+      border: none;
+      background: linear-gradient(45deg,black,grey,silver);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+
+    .about {
+      background: linear-gradient(45deg,black,grey,silver);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+
+    .contact {
+      background: linear-gradient(45deg,black,grey,silver);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    .typing-text {
+      overflow: hidden;
+      white-space: pre-line;
+      animation: typing 3s steps(50, end);
+    }
+
+    .gradient-text {
+    background: linear-gradient(45deg, #032920,#083d54);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Adjust other styles as needed */
+  }
+
+  .glass-card {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 1;
+        /* Add other styles as needed */
+      }
+
+      .imagefixing {
+  position: relative;
+  width: 500px; /* Adjust the width to match your desired section size */
+  height: 300px; /* Adjust the height to match your desired section size */
+}
+
+.imagefixing img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust the image scaling if needed */
+}
+
+.rounded-button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(45deg,black,grey,silver);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.rounded-button:hover {
+  background: linear-gradient(45deg, #032920,#083d54);
+}
+
+
+
+  </style>
+</head>
+<body>
+  <!-- Menu Bar -->
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Home Section -->
+  <div id="home" class="section home">
+    <style>
+      .section-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh; /* Adjust this to fit your needs */
+        border-style: hidden;
+      }
+    
+      .top-section {
+        flex: 1;
+        background: linear-gradient(45deg,black,grey,silver);; /* Adjust the background color */
+      }
+    
+      .bottom-section {
+        background: linear-gradient(45deg,black,grey,silver);
+        display: flex;
+        flex: 1;
+      }
+    
+      .bottom-subsection {
+        flex: 1; /* Adjust the background color */
+        background: linear-gradient(45deg,black,grey,silver);
+        height: 7;
+        width: 7;
+      }
+    </style>
+    
+    <div class="section-container">
+      <div class="top-section glass-card">
+        <!-- Content for top section -->
+        <h1 class="typing-text gradient-text small-text" align="center">Hi There , We Are Völkers Engineering Pvt Ltd. </h1>
+        <p class="typing-text gradient-text small-text" align="center">We Are Now Providing HVAC Etc., .................... Solutions 
+           For Your Sweet Homes In Hyderabad And Surrounding Areas                                                           </p>
+        <p class="typing-text gradient-text small-text"> 
+           What Are You Waiting For Look At Our Service Brochure 
+           Contact Us Through Contacts Section
+        </p>
+      </div>
+      <div class="bottom-section">
+        <div class="bottom-subsection glass-card">
+          <!-- Content for bottom subsection 1 -->
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisTrXFcJHsnWjflfA2mImlXbaVp77-cDu6dDpH27uevaBBBMOi8dqFihPQZs_Fdz28c5FZeHyoTouJyDhfLjcNMfkUD3c_x4l9ZqJYwOWaKPJ3_FVUmO9P_V5zI2att3M723IidbBNSVP5qfaObLZnJbVxgve04Vo08u0fN75UxDlGEAbJf_y8453rWK4/s1279/image0.jpeg" alt="Volkers Eng" height="300px" width="500px" position="relative" object-fit="cover">
+        </div>
+        <div class="bottom-subsection">
+          <!-- Content for bottom subsection 2 -->
+          <p class= "gradient-text typing-text" style="font-size: larger ;font: 1em sans-serif;"><b>Check Our Brochure Below</b></p>
+          <br><br><br>
+          <button class="rounded-button"><a href="https://drive.google.com/file/d/1OetoK9rOAawrPDQf7pr4pYldDgJvdCda/view?usp=drive_link" target="_blank"><b>Click Me</b></a>
+          </button>
+        </div>
+      </div>
+    </div>    
+
+  <!-- About Section -->
+  <div id="about" class="section about">
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="section contact">
+    <h1>Contact Us</h1>
+    <p><i style="font-size:24px" class="fa">&#xf0e0;</i> <a href="mailto:sudeep.volkersengineering@gmail.com">Email</a><br>
+      <i style="font-size:34px" class="fa">&#xf10b;</i><a href="tel:+919769692022"> +91 9769692022</a><br><br>
+      <i style="font-size:24px" class="fa">&#xf041;</i> <b class="gradient-text" style="font-size: medium;">Volkers ,Jawahar Nagar ,Yousufguda ,Hyderabad ,Telangana ,500045</b></p>
+    <p class="gradient-text">Feel free to get in touch with us!</p>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var body = document.body;
+      var gradient = "linear-gradient(45deg,grey,black)";
+      body.style.background = gradient;
+    });
+    // Function to display page hits
+    function displayPageHits() {
+      // Retrieve the page hits from the server or local storage
+      let pageHits = localStorage.getItem("pageHits");
+
+      // Check if pageHits exists in storage
+      if (pageHits) {
+        // Increment the page hits
+        pageHits = parseInt(pageHits) + 1;
+      } else {
+        // Set initial page hits to 1
+        pageHits = 1;
+      }
+
+      localStorage.setItem("pageHits", pageHits);
+
+      // Display the page hits on the page
+      const pageHitsElement = document.createElement("p");
+      pageHitsElement.textContent = `Page Hits: ${pageHits}`;
+      document.body.appendChild(pageHitsElement);
+    }
+
+    // Call the function to display page hits when the website is opened
+    displayPageHits();
+  </script>
+</body>
+</html>
+
+
+
